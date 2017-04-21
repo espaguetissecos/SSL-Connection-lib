@@ -1,0 +1,19 @@
+.TH "whois_case" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+whois_case \- \fBwhois_case\fP 
+Muestra información sobre alguien\&.
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB<IRCcommands\&.h>\fP 
+.PP
+\fBvoid\fP \fBwhois_case\fP \fB\fP(\fBchar\fB*\fBprefix\fB\fP,\fP \fBchar\fB*\fBtarget\fB\fP,\fP \fBchar\fB*\fBapodo\fB\fP,\fP \fBchar\fB**\fBnick\fB\fP,\fP const\fBint\fBsd\fB\fP)\fP  \fP \fP descripcion\fP DESCRIPCIÓN\fP  Muestra\fP información\fP sobre\fP un\fP alguien\fP\&. La información depende de si este está en modo away\&.
+.PP
+Recibe como parámetros el prefijo que nos da la funcion de parseo del comando, target nos indica un servidor especifico para solicitar la información, el apodo del usuario, el nick del usuario que envia el mensaje y su socket correspondiente\&.
+.SH "RETORNO"
+.PP
+No devuelve nada\&.
+.SH "AUTOR"
+.PP
+Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martínez Hernández (javier.maritnez@estudiante.uam.es) 

@@ -1,0 +1,19 @@
+.TH "join_case" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+join_case \- \fBjoin_case\fP 
+Añade un cliente a un canal\&.
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB<IRCcommands\&.h>\fP 
+.PP
+\fBvoid\fP \fBjoin_case\fP \fB\fP(\fBchar\fB*\fBprefix\fB\fP,\fP \fBchar\fB*\fBnewnick\fB\fP,\fP \fBchar\fB*\fBmsg\fB\fP,\fP \fBchar\fB**\fBnick\fB\fP,\fP const\fBint\fBsd\fB\fP)\fP  \fP \fP descripcion\fP DESCRIPCIÓN\fP  Añade\fP un\fP cliente\fP a\fP un\fP canal\&. Si este no existe lo crea\&. Se puede incluir contraseña para la creación, esta será necesaria para el acceso a este canal\&.
+.PP
+Recibe como parámetros el prefijo que nos da la funcion de parseo del comando, canal que queremos crear o unirnos, contraseña para el canal, un posible mensaje, el nick del usuario que envia el mensaje, su socket correspondiente y la cadena del comando que recibimos\&.
+.SH "RETORNO"
+.PP
+No devuelve nada\&.
+.SH "AUTOR"
+.PP
+Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martínez Hernández (javier.maritnez@estudiante.uam.es) 

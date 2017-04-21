@@ -1,0 +1,19 @@
+.TH "privmsg_case" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+privmsg_case \- \fBprivmsg_case\fP 
+Envía un mensaje via privado al usuario especificado\&.
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB<IRCcommands\&.h>\fP 
+.PP
+\fBvoid\fP \fBprivmsg_case\fP \fB\fP(\fBchar\fB*\fBprefix\fB\fP,\fP \fBchar\fB*\fBmsgtarget\fB\fP,\fP \fBchar\fB*\fBmsg\fB\fP,\fP \fBchar\fB**\fBnick\fB\fP,\fP const\fBint\fBsd\fB\fP)\fP  \fP \fP descripcion\fP DESCRIPCIÓN\fP  Envía\fP un\fP mensaje\fP via\fP privado\fP al usuario especificado\&. También se usa para el envio por canal, el canal se especifica en la variable msgtarget\&.
+.PP
+Recibe como parámetros el prefijo que nos da la funcion de parseo del comando, el nick destinatario del mensaje o nombre del canal donde enviamos el mensaje, un mensaje para el usuario indicado, el nick del usuario que envia el mensaje y su socket correspondiente\&.
+.SH "RETORNO"
+.PP
+No devuelve nada\&.
+.SH "AUTOR"
+.PP
+Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martínez Hernández (javier.maritnez@estudiante.uam.es) 

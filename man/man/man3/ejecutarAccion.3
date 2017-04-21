@@ -1,0 +1,19 @@
+.TH "ejecutarAccion" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+ejecutarAccion \- \fBejecutarAccion\fP 
+Parsea los distintos comandos IRC\&.
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB<connectServer\&.h>\fP 
+.PP
+\fBvoid\fP \fBejecutarAccion\fP \fB\fP(\fBlong\fBoption\fB\fP,\fP \fBchar\fB*\fBcommand\fB\fP,\fP \fBchar\fB**\fBnick\fB\fP,\fP const\fBint\fBsd\fB\fP)\fP  \fP \fP descripcion\fP DESCRIPCIÓN\fP  Parsea\fP los\fP distintos comando IRC desarrollados para así ejecutar su acción correspondiente\&.
+.PP
+Recibe como parámetros la opción IRC del comando desconocido, la cadena del comando, el nick del usuario que envia el mensaje y su socket correspondiente\&.
+.SH "RETORNO"
+.PP
+0: ok\&.
+.SH "AUTOR"
+.PP
+Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martínez Hernández (javier.maritnez@estudiante.uam.es) 

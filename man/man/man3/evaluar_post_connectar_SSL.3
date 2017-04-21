@@ -1,0 +1,20 @@
+.TH "evaluar_post_connectar_SSL" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+evaluar_post_connectar_SSL \- \fBevaluar_post_connectar_SSL\fP 
+fija el contexto de una conexion SSL
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB'SSLlib\&.h'\fP 
+.PP
+\fBint\fP \fBevaluar_post_connectar_SSL\fP \fB\fP(\fBSSL*\fP ssl\fB\fP)
+.SH "DESCRIPCIÓN"
+.PP
+Esta función comprobará que el canal de co- municación se puede establecer(y de forma segura)\&.
+.SH "RETURN"
+.PP
+Devuelve 0 en caso de error o 1 en caso de exito \&.
+.SH "VER TAMBIÉN"
+.PP
+\fBinicializar_nivel_SSL(3)\fP, \fBconectar_canal_seguro_SSL(3)\fP, \fBaceptar_canal_seguro_SSL(3)\fP, \fBfijar_contexto_SSL(3)\fP, \fBenviar_datos_SSL(3)\fP, \fBrecibir_datos_SSL(3)\fP, \fBcerrar_canal_SSL(3)\fP \fB\fP  authors AUTOR Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martinez Hernandez (javier.martinez@estudiante.uam.es) 

@@ -1,0 +1,20 @@
+.TH "recibir_datos_SSL" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+recibir_datos_SSL \- \fBrecibir_datos_SSL\fP 
+recibe datos mediante el socket de com\&. con SSL
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB'SSLlib\&.h'\fP 
+.PP
+\fBint\fP \fBrecibir_datos_SSL\fP \fB\fP(\fBSSL*\fP buff, \fBchar*\fP buf \fB\fP)
+.SH "DESCRIPCIÓN"
+.PP
+Esta función será el equivalente al RECV que se realizó en la práctica 1(Serv\&.IRC) o 2, pero será utilizada para enviar datos a través del canal seguro\&.
+.SH "RETURN"
+.PP
+Devuelve 0 en caso de error o 1 en caso de exito \&.
+.SH "VER TAMBIÉN"
+.PP
+\fBinicializar_nivel_SSL(3)\fP, \fBfijar_contexto_SSL(3)\fP, \fBconectar_canal_seguro_SSL(3)\fP, \fBaceptar_canal_seguro_SSL(3)\fP, \fBevaluar_post_connectar_SSL(3)\fP, \fBenviar_datos_SSL(3)\fP, \fBcerrar_canal_SSL(3)\fP \fB\fP  authors AUTOR Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martinez Hernandez (javier.martinez@estudiante.uam.es) 

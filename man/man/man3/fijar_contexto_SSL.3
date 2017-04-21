@@ -1,0 +1,20 @@
+.TH "fijar_contexto_SSL" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+fijar_contexto_SSL \- \fBfijar_contexto_SSL\fP 
+fija el contexto de una conexion SSL
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB'SSLlib\&.h'\fP 
+.PP
+\fBint\fP \fBfijar_contexto_SSL\fP \fB\fP(\fBSSL_CTX*\fP ctx, \fBconst\fP char* CAfile, \fBconst\fP char* prvKeyFile, \fBconst\fP char* certFile\fB\fP)
+.SH "DESCRIPCIÓN"
+.PP
+Esta función se encargará de inicializar correctamente el contexto que será utilizado para la creación de canales seguros mediante SSL\&.
+.SH "RETURN"
+.PP
+Devuelve 1 si sale bien, o 0 en otro caso\&.
+.SH "VER TAMBIÉN"
+.PP
+\fBinicializar_nivel_SSL(3)\fP, \fBconectar_canal_seguro_SSL(3)\fP, \fBaceptar_canal_seguro_SSL(3)\fP, \fBevaluar_post_connectar_SSL(3)\fP, \fBenviar_datos_SSL(3)\fP, \fBrecibir_datos_SSL(3)\fP, \fBcerrar_canal_SSL(3)\fP \fB\fP  authors AUTOR Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martinez Hernandez (javier.martinez@estudiante.uam.es) 

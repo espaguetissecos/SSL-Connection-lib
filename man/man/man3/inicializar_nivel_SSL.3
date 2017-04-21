@@ -1,0 +1,20 @@
+.TH "inicializar_nivel_SSL" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+inicializar_nivel_SSL \- \fBinicializar_nivel_SSL\fP 
+Inicializa protocolo SSL
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB'SSLlib\&.h'\fP 
+.PP
+\fBSSL_CTX*\fP \fBinicializar_nivel_SSL\fP \fB\fP(\fBint\fP * sock\fB\fP)
+.SH "DESCRIPCIÓN"
+.PP
+Esta función se encargará de inicializar las librerías SSL así como crear el socket\&.
+.SH "RETURN"
+.PP
+Devuelve el Context si sale bien, o NULL en otro caso\&.
+.SH "VER TAMBIÉN"
+.PP
+\fBfijar_contexto_SSL(3)\fP, \fBconectar_canal_seguro_SSL(3)\fP, \fBaceptar_canal_seguro_SSL(3)\fP, \fBevaluar_post_connectar_SSL(3)\fP, \fBenviar_datos_SSL(3)\fP, \fBrecibir_datos_SSL(3)\fP, \fBcerrar_canal_SSL(3)\fP \fB\fP  authors AUTOR Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martinez Hernandez (javier.martinez@estudiante.uam.es) 

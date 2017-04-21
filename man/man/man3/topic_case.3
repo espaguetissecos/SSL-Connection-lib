@@ -1,0 +1,19 @@
+.TH "topic_case" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+topic_case \- \fBtopic_case\fP 
+Cambia el tema o mensaje explicativo del canal\&.
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB<IRCcommands\&.h>\fP 
+.PP
+\fBvoid\fP \fBtopic_case\fP \fB\fP(\fBchar\fB*\fBprefix\fB\fP,\fP \fBchar\fB*\fBchannel\fB\fP,\fP \fBchar\fB*\fBtopic\fB\fP,\fP \fBchar\fB**\fBnick\fB\fP,\fP const\fBint\fBsd\fB\fP)\fP  \fP \fP descripcion\fP DESCRIPCIÓN\fP  Cambia\fP el\fP tema\fP o\fP mensaje\fP explicativo del canal que todos los usuarios verán junto al nombre al hacer un /list, y en la barra de título de la ventana del canal
+.PP
+Recibe como parámetros el prefijo que nos da la funcion de parseo del comando,el canal donde modificaremos el tema, el mensaje que deseamos en el canal, el nick del usuario que envia el mensaje y su socket correspondiente\&.
+.SH "RETORNO"
+.PP
+No devuelve nada\&.
+.SH "AUTOR"
+.PP
+Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martínez Hernández (javier.maritnez@estudiante.uam.es) 

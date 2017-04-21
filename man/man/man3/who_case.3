@@ -1,0 +1,19 @@
+.TH "who_case" 3 "Sun May 1 2016" "Conexion SSL" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+who_case \- \fBwho_case\fP 
+Muestra información sobre un nick o canal\&.
+.SH "SYNOPSIS"
+.PP
+\fB#include\fP \fB<IRCcommands\&.h>\fP 
+.PP
+\fBvoid\fP \fBwho_case\fP \fB\fP(\fBchar\fB*\fBprefix\fB\fP,\fP \fBchar\fB*\fBmask\fB\fP,\fP \fBchar\fB*\fBoppar\fB\fP,\fP \fBchar\fB**\fBnick\fB\fP,\fP const\fBint\fBsd\fB\fP)\fP  \fP \fP descripcion\fP DESCRIPCIÓN\fP  Muestra\fP información\fP sobre\fP un\fP nick\fP de manera mas escueta\&. En el caso de poner un #canal mostrará a los usuarios que esten dentro\&. Se permite recibir un mensaje como información extra\&.
+.PP
+Recibe como parámetros el prefijo que nos da la funcion de parseo del comando, mask indica el nick o canal del cual queremos información, un mensaje con información extra, el nick del usuario que envia el mensaje y su socket correspondiente\&.
+.SH "RETORNO"
+.PP
+No devuelve nada\&.
+.SH "AUTOR"
+.PP
+Francisco Andreu Sanz (francisco.andreu@estudiante.uam.es) Javier Martínez Hernández (javier.maritnez@estudiante.uam.es) 
